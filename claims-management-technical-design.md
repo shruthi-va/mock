@@ -254,7 +254,7 @@ The following are proposed targets to confirm with stakeholders:
 - **Observability:** structured logs, service metrics, traces for key workflows, and alerts for failed submissions, notification backlog, upload failures, and elevated error rates.
 - **Accessibility:** target WCAG 2.2 AA for claimant and staff user interfaces, subject to formal assessment.
 
-## 14. Error handling and consistency
+## 14. Error handling and consistency 
 
 - Validate fields and workflow transitions before committing changes; return field-level errors that users can act on.
 - Commit the main claim change and its audit event in one database transaction where possible.
